@@ -14,6 +14,10 @@ h3 {
 }
 
 .background {
-  background-image: url('../images/kine/background.png');
+  background-image: url('../images/kine/background.jpg');
   background-size: cover;
+}
+
+.lead2 {
+  margin-top: 20px;
 }
