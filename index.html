@@ -156,7 +156,7 @@ Het B-E-St toestel is een technologisch hoogstandje waarbij microcurrent of bio-
 
 
 
-						<div class="row topmargin-lg divcenter" style="max-width: 1000px;">
+						<!--<div class="row topmargin-lg divcenter" style="max-width: 1000px;">
 
 							<div class="col-sm-4 bottommargin divcenter">
 
@@ -174,7 +174,7 @@ Het B-E-St toestel is een technologisch hoogstandje waarbij microcurrent of bio-
 
 						</div>
 
-					</div>
+					</div>-->
 
 				</div>
 
@@ -220,7 +220,7 @@ A HEALTHY MIND.</h2>
 							<div class="col-padding max-height">
 								<h3 class="font-body t400 ls1">Kine Nederhand</h3>
 
-								<div style="font-size: 16px; line-height: 1.7;">
+								<div style="font-size: 16px; line-height: 1.7; text-align:left;">
 
 									<address style="line-height: 1.7;">
 										Vordensteinstraat 70,<br>
@@ -250,33 +250,38 @@ A HEALTHY MIND.</h2>
 
 								<form class="nobottommargin" id="template-contactform" name="template-contactform" action="https://formspree.io/nederhandbrent@gmail.com" method="POST">
 
-									<div class="form-process"></div>
+
+									<input type="hidden" name="_next" value="kinenederhand.com/bedankt.html" />
+									<input type="hidden" name="_subject" value="Website contactformulier" />
+									<input type="text" name="_gotcha" style="display:none" />
+
 
 									<div class="col_half">
-										<input type="text" id="template-contactform-name" name="template-contactform-name" value="" class="sm-form-control border-form-control required" placeholder="Name" />
+										<input type="text" id="template-contactform-name" name="Naam" value="" class="sm-form-control border-form-control required" placeholder="Naam" />
 									</div>
+
 									<div class="col_half col_last">
-										<input type="email" id="template-contactform-email" name="template-contactform-email" value="" class="required email sm-form-control border-form-control" placeholder="Email Address" />
+										<input type="email" id="template-contactform-email" name="email" value="" class="required email sm-form-control border-form-control" placeholder="Email" />
 									</div>
 
 									<div class="clear"></div>
 
 									<div class="col_one_third">
-										<input type="text" id="template-contactform-phone" name="template-contactform-phone" value="" class="sm-form-control border-form-control" placeholder="Phone" />
+										<input type="text" id="template-contactform-phone" name="Telefoonnummer" value="" class="sm-form-control border-form-control" placeholder="Telefoon" />
 									</div>
 
 									<div class="col_two_third col_last">
-										<input type="text" id="template-contactform-subject" name="template-contactform-subject" value="" class="required sm-form-control border-form-control" placeholder="Subject" />
+										<input type="text" id="template-contactform-subject" name="Onderwerp" value="" class="required sm-form-control border-form-control" placeholder="Onderwerp" />
 									</div>
 
 									<div class="clear"></div>
 
 									<div class="col_full">
-										<textarea class="required sm-form-control border-form-control" id="template-contactform-message" name="template-contactform-message" rows="7" cols="30" placeholder="Your Message"></textarea>
+										<textarea class="required sm-form-control border-form-control" id="template-contactform-message" name="Bericht" rows="7" cols="30" placeholder="Uw bericht"></textarea>
 									</div>
 
 									<div class="col_full center">
-										<button class="button button-border button-circle t500 noleftmargin topmargin-sm" type="submit" id="template-contactform-submit" name="send" value="submit">Send Message</button>
+										<button class="button button-border button-circle t500 noleftmargin topmargin-sm" type="submit" id="template-contactform-submit" name="send" value="submit">Verzenden</button>
 										<br>
 										<small style="display: block; font-size: 13px; margin-top: 15px;">Voor afspraken gelieve ons telefonisch te contacteren.</small>
 									</div>
@@ -286,10 +291,6 @@ A HEALTHY MIND.</h2>
 									<div class="col_full hidden">
 										<input type="text" id="template-contactform-botcheck" name="template-contactform-botcheck" value="" class="sm-form-control" />
 									</div>
-
-									<input type="hidden" name="_next" value="//kinenederhand.com/bedankt.html" />
-									<input type="hidden" name="_subject" value="Website contactformulier" />
-									<input type="text" name="_gotcha" style="display:none" />
 
 								</form >
 
