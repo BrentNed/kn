@@ -5,6 +5,15 @@
 	Overwriting Default Theme Styles for Better Hanlding Updates
 -----------------------------------------------------------------*/
 
+#section-about {
+  padding-top: 4%;
+}
 
+h3 {
+  text-align: left;
+}
 
-
+.background {
+  background-image: url('../images/kine/background.png');
+  background-size: cover;
+}
