@@ -21,3 +21,7 @@ h3 {
 .lead2 {
   margin-top: 20px;
 }
+
+.shadow {
+  text-shadow: 0px 0px 25px black;
+}
