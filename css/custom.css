@@ -25,3 +25,9 @@ h3 {
 .shadow {
   text-shadow: 0px 0px 25px black;
 }
+
+.best {
+  float: right;
+  width: 325px;
+  margin-top: -210px;
+}
